@@ -1,0 +1,36 @@
+@import url("./reset.css");
+
+.sidbar{
+    border-right: 1px solid var(--cinza);
+    width: 245px;
+    height: 100vh;
+    padding: 20px;
+    float: left;
+}
+
+.sidbar .options{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidbar .options .card-option{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.sidbar .options .card-option:hover{
+    background-color: var(--cinza);
+}
+
+
+
+
+
+
+

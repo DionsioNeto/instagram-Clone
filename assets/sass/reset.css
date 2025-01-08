@@ -1,0 +1,20 @@
+:root{
+    --bg: #000000;
+    --branco: #ffffff;
+    --preto: black;
+    --azul: #43c2df;
+    --cinza: #353535;
+    --bg: black;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--branco);
+}
+
+body{
+    background-color: var(--bg);
+}
