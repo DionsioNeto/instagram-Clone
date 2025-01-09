@@ -4,7 +4,7 @@
     border-right: 1px solid var(--cinza);
     width: 245px;
     height: 100vh;
-    padding: 20px;
+    padding: 10px;
     float: left;
 }
 
@@ -20,7 +20,7 @@
     align-items: center;
     cursor: pointer;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 20px;
 }
 
@@ -28,8 +28,17 @@
     background-color: var(--cinza);
 }
 
+.sidbar .options .card-option .icon .small-img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 25px;
+    height: 25px;
+}
 
+.sidbar .options .card-option .icon .small-img img{
+    width: 100%;
 
+}
 
 
 
